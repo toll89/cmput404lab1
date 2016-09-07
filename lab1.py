@@ -1,6 +1,6 @@
 import requests
 
 
-response = requests.post('http://ccid-eddieantonio.rhcloud.com/toll')
-print response.status_code
+response = requests.get('https://github.com/toll89/cmput404lab1/raw/master/lab1.py')
+print(response.text)
 
